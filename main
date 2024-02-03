@@ -213,7 +213,7 @@ controller.Chatted:Connect(function(msg)
 				char:FindFirstChildOfClass("Humanoid").RootPart.CFrame = CFrame.new(BasePart.Position) * Pos
 				char:SetPrimaryPartCFrame(CFrame.new(BasePart.Position) * Pos )
 			end
-			for i = 1,3 do
+			for i = 1,4 do
 				if target.Character:FindFirstChildOfClass("Humanoid").Health <= 15 then
 					bot.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
 					break
@@ -274,7 +274,7 @@ controller.Chatted:Connect(function(msg)
 				char:FindFirstChildOfClass("Humanoid").RootPart.CFrame = CFrame.new(BasePart.Position) * Pos
 				char:SetPrimaryPartCFrame(CFrame.new(BasePart.Position) * Pos )
 			end
-			for i = 1,3 do
+			for i = 1,4 do
 				if target.Character:FindFirstChildOfClass("Humanoid").Health <= 15 then
 					bot.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
 					break
@@ -283,7 +283,7 @@ controller.Chatted:Connect(function(msg)
 				local oldpos = bot.Character:FindFirstChildOfClass("Humanoid").RootPart.CFrame 
 				bot.Character["[Knife]"]:Activate()
 				wait(1.4)
-				for i = 1,10 do
+				for i = 1,20 do
 					if target.Character:FindFirstChildOfClass("Humanoid").Health <= 15 then
 						break
 					end
